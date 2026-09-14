@@ -19,7 +19,7 @@ Built and compared multiple approaches for handwritten digit classification usin
 | Model               | Accuracy |
 | ------------------- | -------: |
 | Logistic Regression |  ~92.57% |
-| Decision Tree       |  ~87.65% |
+| Decision Tree       |  ~87.54% |
 | PyTorch MLP         |  ~97.64% |
 
 The PyTorch MLP achieved the best performance among the tested models.

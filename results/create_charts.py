@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 
 # MNIST model comparison
 models = ["Logistic Regression", "Decision Tree", "PyTorch MLP"]
-accuracy = [92.57, 87.65, 97.64]
+accuracy = [92.57, 87.54, 97.64]
 
 plt.figure(figsize=(8, 5))
 plt.bar(models, accuracy)
