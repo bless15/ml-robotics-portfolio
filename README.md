@@ -1,6 +1,6 @@
 # ML & Robotics Portfolio
 
-A practical AI/ML learning portfolio progressing from Python fundamentals to machine learning, neural networks, and reinforcement learning, with a long-term focus on robotics research.
+A practical AI/ML learning portfolio progressing from Python fundamentals to machine learning, neural networks, and reinforcement learning, with a long-term focus on AI and robotics research.
 
 ## Projects
 
@@ -18,9 +18,9 @@ Built and compared multiple approaches for handwritten digit classification usin
 
 | Model               | Accuracy |
 | ------------------- | -------: |
-| Logistic Regression |  ~92.57% |
-| Decision Tree       |  ~87.54% |
-| PyTorch MLP         |  ~97.64% |
+| Logistic Regression |   92.57% |
+| Decision Tree       |   87.54% |
+| PyTorch MLP         |   97.64% |
 
 The PyTorch MLP achieved the best performance among the tested models.
 
@@ -38,12 +38,14 @@ Started with reinforcement learning fundamentals using Gymnasium, then trained a
 
 **Evaluation:**
 
+Average reward over 10 evaluation episodes:
+
 | Agent          | Average Reward |
 | -------------- | -------------: |
 | Random Actions |           25.0 |
-| PPO            |          302.9 |
+| PPO            |          350.8 |
 
-The PPO agent achieved substantially higher average reward than the random-action baseline.
+The PPO agent achieved substantially higher average reward than the random-action baseline, with several evaluation episodes reaching the CartPole maximum reward of 500.
 
 ### CartPole Results
 
@@ -59,7 +61,7 @@ The portfolio is organized around three stages:
 
 **Control** → Future robotics projects
 
-The long-term goal is to apply these foundations to robotics, combining machine learning, perception, decision-making, and control.
+The long-term goal is to apply these foundations to robotics by combining machine learning, perception, decision-making, and control.
 
 ## Tech Stack
 
@@ -78,6 +80,7 @@ The long-term goal is to apply these foundations to robotics, combining machine 
 
 ```text
 ml-robotics-portfolio/
+
 ├── week1/
 │   └── day1_variables.py
 ├── week2/
@@ -97,6 +100,10 @@ ml-robotics-portfolio/
 │   ├── ppo_cartpole.py
 │   ├── ppo_cartpole_test.py
 │   └── ppo_cartpole.zip
+├── results/
+│   ├── cartpole_performance.png
+│   ├── create_charts.py
+│   └── mnist_model_comparison.png
 ├── requirements.txt
 └── README.md
 ```
@@ -107,7 +114,9 @@ Clone the repository and create a virtual environment:
 
 ```bash
 git clone https://github.com/bless15/ml-robotics-portfolio.git
+
 cd ml-robotics-portfolio
+
 python -m venv .venv
 ```
 

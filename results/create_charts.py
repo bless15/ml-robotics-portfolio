@@ -16,7 +16,7 @@ plt.close()
 
 # CartPole performance comparison
 agents = ["Random", "PPO"]
-rewards = [25.0, 302.9]
+rewards = [25.0, 350.8]
 
 plt.figure(figsize=(7, 5))
 plt.bar(agents, rewards)
