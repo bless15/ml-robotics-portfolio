@@ -24,6 +24,10 @@ Built and compared multiple approaches for handwritten digit classification usin
 
 The PyTorch MLP achieved the best performance among the tested models.
 
+### MNIST Results
+
+![MNIST Model Accuracy Comparison](results/mnist_model_comparison.png)
+
 ### 2. CartPole Reinforcement Learning — Control
 
 Started with reinforcement learning fundamentals using Gymnasium, then trained an agent using Proximal Policy Optimization (PPO) with Stable-Baselines3.
@@ -40,6 +44,10 @@ Started with reinforcement learning fundamentals using Gymnasium, then trained a
 | PPO            |          302.9 |
 
 The PPO agent achieved substantially higher average reward than the random-action baseline.
+
+### CartPole Results
+
+![CartPole Performance: Random vs PPO](results/cartpole_performance.png)
 
 ## AI/Robotics Progression
 
