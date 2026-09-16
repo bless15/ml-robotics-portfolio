@@ -151,5 +151,9 @@ with torch.no_grad():
     output = loaded_model(image)
     prediction = output.argmax(dim=1).item()
 
+probabilities = torch.softmax(output, dim=1)
+confidence = probabilities[0][prediction].item() * 100
+
 print(f"Predicted: {prediction}")
 print(f"Actual: {label}")
+print(f"Confidence: {confidence:.2f}%")
