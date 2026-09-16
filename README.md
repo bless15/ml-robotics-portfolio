@@ -71,6 +71,7 @@ The long-term goal is to apply these foundations to robotics by combining machin
 * Matplotlib
 * scikit-learn
 * PyTorch
+* TensorFlow
 * torchvision
 * Gymnasium
 * Stable-Baselines3
